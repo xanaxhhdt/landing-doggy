@@ -92,7 +92,7 @@ body {
    opacity: 0.8;
 }
 
-/* ---------------------------------  ---------------------------------*/
+/* --------------------------------- page ---------------------------------*/
 
 .page {
    position: relative;
@@ -130,7 +130,7 @@ body {
    transition: var(--transition-animation);
 }
 .page__button:hover {
-   opacity: .8;
+   opacity: 0.8;
 }
 .page__button_orange:not(:last-child) {
    margin: 0px 20px 0px 0px;
@@ -151,4 +151,98 @@ body {
    width: 100%;
    height: 100%;
    object-fit: cover;
+}
+
+/* --------------------------------- preview ---------------------------------*/
+
+.preview {
+}
+.preview__wrapper {
+   background: #ffece4;
+   border-radius: 50px;
+   padding: 100px 100px;
+}
+.preview__body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin: 0px 0px 60px 0px;
+}
+.preview__suptitle {
+   font-weight: 800;
+   font-size: 20px;
+   line-height: calc(27 / 20 * 100%);
+   color: #ff7751;
+   margin: 0px 0px 10px 0px;
+}
+.preview__title {
+   font-weight: 800;
+   font-size: 64px;
+   line-height: calc(84 / 64 * 100%);
+   text-align: center;
+
+   color: #242851;
+}
+.preview__row {
+}
+.row {
+}
+.row__cards {
+   display: flex;
+   margin: 0px -20px;
+}
+.row__item {
+   flex: 0 1 25%;
+   padding: 0px 20px;
+}
+.row__card {
+   padding: 50px 40px;
+   background-color: white;
+   border-radius: 30px;
+
+   transition: var(--transition-animation);
+}
+.row__image {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0px 0px 35px 0px;
+}
+.row__image img {
+   border-radius: 100%;
+   width: 100px;
+   height: 100px;
+}
+.row__title {
+   font-weight: 800;
+   font-size: 26px;
+   line-height: calc(35 / 26 * 100%);
+   text-align: center;
+
+   color: #242851;
+
+   margin: 0px 0px 20px 0px;
+
+   transition: var(--transition-animation);
+}
+.row__text {
+   text-align: center;
+   font-family: var(--font-family-Quicksand);
+   font-size: 18px;
+   line-height: 156%;
+
+   transition: var(--transition-animation);
+}
+
+.row__card:hover {
+   background-color: #ff8b6b;
+}
+
+.row__card:hover .row__text {
+   color: white;
+}
+
+.row__card:hover .row__title {
+   color: white;
 }
