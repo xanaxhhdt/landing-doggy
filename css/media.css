@@ -1,0 +1,253 @@
+/* --------------------------------- header & page ---------------------------------*/
+
+@media (max-width: 1290px) {
+   .header__navigation {
+      margin: 0px 0px 0px 135px;
+   }
+   .page {
+      padding: 0 80px;
+   }
+   .page__body {
+      margin: 0px 0px 0px 0px;
+   }
+}
+@media (max-width: 1084px) {
+   .page {
+      padding: 0 40px;
+   }
+   .header__navigation,
+   .header__button {
+      display: none;
+   }
+   .page__title {
+      font-size: 70px;
+   }
+   .page__text p {
+      color: black;
+   }
+}
+@media (max-width: 658px) {
+   .page__title {
+      font-size: 50px;
+   }
+   .page__buttons {
+      flex-direction: column;
+   }
+   .page__button_orange:not(:last-child) {
+      margin: 0px 0px 20px 0px;
+   }
+   .page__buttons {
+      display: inline-flex;
+      text-align: center;
+   }
+   .page__body {
+      padding: 40px 0px;
+   }
+}
+
+@media (max-width: 498px) {
+   .page {
+      padding: 0 0px;
+   }
+   .page__title {
+      font-size: 35px;
+   }
+}
+
+/* --------------------------------- preview ---------------------------------*/
+
+@media (max-width: 1290px) {
+   .row__cards {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0px -20px;
+   }
+   .row__item {
+      flex: 1 0 33.333%;
+      padding: 20px;
+      min-width: auto;
+   }
+   .preview__wrapper {
+      background: #ffece4;
+      border-radius: 50px;
+      padding: 50px;
+   }
+   .preview__body {
+      margin: 0px 0px 25px 0px;
+   }
+}
+
+@media (max-width: 986px) {
+   .row__item {
+      flex: 1 0 50%;
+      padding: 20px;
+      min-width: auto;
+   }
+}
+
+@media (max-width: 768px) {
+   .row__item {
+      flex: 1 1 auto;
+      padding: 20px;
+      min-width: auto;
+   }
+   .preview__title {
+      font-size: 44px;
+   }
+   .preview__body {
+      margin: 0px 0px 15px 0px;
+   }
+}
+
+@media (max-width: 530px) {
+   .preview__title {
+      font-size: 34px;
+   }
+   .preview__wrapper {
+      padding: 25px;
+   }
+}
+
+/* --------------------------------- service ---------------------------------*/
+
+@media (max-width: 1290px) {
+   .service {
+      padding: 0px 50px;
+   }
+   .container__service {
+      max-width: 1520px;
+      margin: 0 auto;
+      padding: 0 15px;
+   }
+   .service__body {
+      margin: 0px 0px 0px 0px;
+   }
+}
+
+@media (max-width: 1084px) {
+   .service__title {
+      font-size: 54px;
+   }
+   .service__text p {
+      color: black;
+   }
+   .service {
+      padding: 0px 40px;
+   }
+}
+@media (max-width: 698px) {
+   .service__title {
+      font-size: 42px;
+   }
+}
+
+@media (max-width: 498px) {
+   .service__title {
+      font-size: 34px;
+   }
+   .service {
+      padding: 0px 0px 0px 0px;
+   }
+}
+
+/* --------------------------------- groomers ---------------------------------*/
+
+@media (max-width: 1517px) {
+   .card__item {
+      padding: 20px;
+   }
+}
+@media (max-width: 1086px) {
+   .groomers__body {
+      margin: 0px 0px 25px 0px;
+   }
+}
+@media (max-width: 986px) {
+   .groomers__wrapper {
+      padding: 50px;
+   }
+}
+@media (max-width: 753px) {
+   .groomers__wrapper {
+      padding: 30px 15px;
+   }
+}
+@media (max-width: 738px) {
+   .groomers__title {
+      font-size: 44px;
+   }
+   .groomers {
+      margin: 0px 0px 60px 0px;
+   }
+}
+@media (max-width: 683px) {
+   .card__body {
+      border-radius: 40px;
+   }
+}
+@media (max-width: 542px) {
+   .groomers__title {
+      font-size: 28px;
+   }
+}
+@media (max-width: 358px) {
+   .card__body {
+      padding: 20px 20px 40px 20px;
+   }
+}
+
+@media (max-width: 1290px) {
+   .pack {
+      display: none;
+   }
+}
+
+/* --------------------------------- pet-care ---------------------------------*/
+@media (max-width: 1296px) {
+   .pet-care__wrapper {
+      flex-direction: column-reverse;
+   }
+   .pet-care__image {
+      margin: 0px 0px 20px 0px;
+   }
+   .pet-care__button {
+      justify-content: center;
+      align-items: center;
+   }
+}
+@media (max-width: 890px) {
+   .pet-care__title {
+      font-size: 44px;
+      text-align: center;
+   }
+   .pet-care__text {
+      text-align: center;
+   }
+}
+@media (max-width: 689px) {
+   .pet-care__title {
+      font-size: 34px;
+   }
+   .pet-care__wrapper {
+      padding: 20px;
+   }
+}
+@media (max-width: 420px) {
+   .pet-care__title {
+      font-size: 28px;
+   }
+}
+
+/* --------------------------------- footer ---------------------------------*/
+
+@media (max-width: 1204px) {
+   .footer__row {
+      flex-direction: column;
+   }
+   .footer__item:not(:first-child) {
+      margin: 0px 0px 0px 0px;
+   }
+   .footer__item:not(:last-child) {
+      margin: 0px 0px 50px 0px;
+   }
+}
