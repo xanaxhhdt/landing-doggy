@@ -25,6 +25,9 @@
    .page__text p {
       color: black;
    }
+   .mobile-nav-button {
+      display: block;
+   }
 }
 @media (max-width: 658px) {
    .page__title {
@@ -42,6 +45,9 @@
    }
    .page__body {
       padding: 40px 0px;
+   }
+   .page__image img {
+      object-position: 80%;
    }
 }
 
@@ -231,6 +237,9 @@
    .pet-care__wrapper {
       padding: 20px;
    }
+   .service__image img {
+      object-position: 70%;
+   }
 }
 @media (max-width: 420px) {
    .pet-care__title {
@@ -249,5 +258,11 @@
    }
    .footer__item:not(:last-child) {
       margin: 0px 0px 50px 0px;
+   }
+}
+
+@media (max-width: 460px) {
+   .footer__form {
+      display: none;
    }
 }
