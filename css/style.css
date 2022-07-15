@@ -334,6 +334,7 @@ body {
 /* --------------------------------- groomers ---------------------------------*/
 
 .groomers {
+   margin: 0px 0px 130px 0px;
 }
 .groomers__wrapper {
    background: #ffece4;
@@ -405,5 +406,110 @@ body {
    color: #ff7751;
 }
 
-
 /* --------------------------------- pack ---------------------------------*/
+
+.pack {
+   margin: 0px 0px 130px 0px
+}
+.container__min {
+   max-width: 1290px;
+   margin: 0 auto;
+}
+.pack__column {
+   display: flex;
+   align-items: center;
+}
+.pack__item {
+}
+.pack__item:nth-child(1) {
+   position: relative;
+   z-index: 1000;
+}
+.pack__item:nth-child(2) {
+   position: relative;
+   z-index: 1003;
+   margin: 0 -66px;
+}
+.pack__item:nth-child(3) {
+   position: relative;
+   z-index: 1000;
+}
+.pack__card {
+   padding: 60px 128px;
+   background: #ffffff;
+   box-shadow: 0px 15px 40px rgba(217, 200, 193, 0.3);
+   border-radius: 20px;
+}
+.pack__body {
+   color: var(--color-blue-blacked);
+}
+.pack__suptitle {
+   font-weight: 800;
+   font-size: 28px;
+   line-height: calc(38 / 28 * 100%);
+   text-align: center;
+   margin: 0px 0px 5px 0px;
+}
+.pack__days {
+   font-weight: 800;
+   font-size: 50px;
+   line-height: calc(68 / 50 * 100%);
+   text-align: center;
+   margin: 0px 0px 50px 0px;
+}
+.pack__lists {
+   margin: 0px 0px 50px 0px;
+}
+.pack__lists li {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: calc(25 / 20 * 100%);
+   text-align: center;
+   font-family: var(--font-family-Quicksand);
+}
+.pack__lists li:not(:last-child) {
+   margin: 0px 0px 25px 0px;
+}
+.pack__price {
+   font-weight: 800;
+   font-size: 50px;
+   line-height: calc(68 / 50 * 100%);
+   text-align: center;
+   color: var(--color-orange);
+   margin: 0px 0px 60px 0px;
+}
+.pack__price span {
+   font-size: 24px;
+}
+.pack__btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: var(--transition-animation);
+}
+.pack__btn:hover {
+   opacity: 0.8;
+}
+
+
+.pack__card_modify .pack__card {
+   background: linear-gradient(180deg, #ffa389 0%, #ff6439 100%);
+   box-shadow: 0px 15px 40px rgba(255, 103, 61, 0.3);
+}
+
+.pack__card_modify .pack__body {
+   color: white;
+}
+
+.pack__card_modify .pack__lists li {
+   color: white;
+}
+
+.pack__card_modify .pack__price {
+   color: white;
+}
+
+.pack__card_modify .pack__button {
+   color: var(--color-orange);
+   background: #FFFFFF;
+}
