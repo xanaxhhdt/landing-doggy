@@ -554,3 +554,113 @@ body {
    max-width: 462px;
    max-height: 428px;
 }
+
+/* --------------------------------- footer ---------------------------------*/
+
+.footer {
+}
+.footer__row {
+   display: flex;
+   margin: 0px 0px 135px 0px;
+}
+.footer__item {
+}
+/* .footer__item:nth-child(2) {
+   max-width: 212px;
+} */
+.footer__item:not(:first-child) {
+   margin: 0px 0px 0px 102px;
+}
+.footer__body {
+   max-width: 410px;
+}
+.footer__title {
+   font-weight: 800;
+   font-size: 36px;
+   line-height: calc(49 / 36 * 100%);
+   color: var(--color-blue-blacked);
+   margin: 0px 0px 25px 0px;
+}
+.footer__title span {
+   color: var(--color-orange);
+}
+.footer__text {
+   font-family: var(--font-family-Quicksand);
+   margin: 0px 0px 30px 0px;
+}
+.footer__text p {
+   font-size: 19px;
+   line-height: calc(30 / 18 * 100%);
+}
+.footer__form {
+   background: #ffffff;
+   box-shadow: 0px 12px 35px rgba(210, 197, 192, 0.25);
+   display: flex;
+   max-width: 394px;
+   border-radius: 30px;
+}
+.footer__email {
+   border-radius: 30px;
+   font-size: 20px;
+   color: inherit;
+}
+
+.footer__email::placeholder {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: calc(22 / 18 * 100%);
+}
+.footer__click {
+   padding: 12px 30px;
+   background: linear-gradient(180deg, #ffa992 0%, #ff7852 65%);
+   box-shadow: 0px 10px 25px rgba(255, 124, 84, 0.3);
+   border-radius: 30px;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: calc(25 / 18 * 100%);
+   color: #ffffff;
+   margin-left: auto;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   margin-right: 5px;
+}
+
+.info__block {
+}
+
+.info__title {
+   font-weight: 800;
+   font-size: 28px;
+   line-height: calc(38 / 28 * 100%);
+
+   color: #242851;
+   margin: 0px 0px 25px 0px;
+}
+.info__lists {
+   font-size: 18px;
+   line-height: calc(22 / 18 * 100%);
+   font-family: var(--font-family-Quicksand);
+}
+
+.info__lists li:not(:last-child) {
+   margin: 0px 0px 15px 0px;
+}
+.info__link {
+   font-size: 18px;
+   line-height: calc(22 / 18 * 100%);
+   font-family: var(--font-family-Quicksand);
+   color: inherit;
+}
+
+.footer__copyright {
+   padding: 0px 0px 30px 0px;
+}
+.copyright {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.copyright__page {
+   font-size: 18px;
+   line-height: calc(22 / 18 * 100%);
+}
