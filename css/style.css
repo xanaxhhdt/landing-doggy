@@ -409,7 +409,7 @@ body {
 /* --------------------------------- pack ---------------------------------*/
 
 .pack {
-   margin: 0px 0px 130px 0px
+   margin: 0px 0px 130px 0px;
 }
 .container__min {
    max-width: 1290px;
@@ -491,7 +491,6 @@ body {
    opacity: 0.8;
 }
 
-
 .pack__card_modify .pack__card {
    background: linear-gradient(180deg, #ffa389 0%, #ff6439 100%);
    box-shadow: 0px 15px 40px rgba(255, 103, 61, 0.3);
@@ -511,5 +510,47 @@ body {
 
 .pack__card_modify .pack__button {
    color: var(--color-orange);
-   background: #FFFFFF;
+   background: #ffffff;
+}
+
+/* --------------------------------- pet-care ---------------------------------*/
+
+.pet-care {
+   margin: 0px 0px 130px 0px;
+}
+.pet-care__wrapper {
+   background: #ffece4;
+   border-radius: 50px;
+   padding: 54px 105px 39px 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.pet-care__body {
+   max-width: 654px;
+}
+.pet-care__title {
+   font-weight: 800;
+   font-size: 64px;
+   line-height: calc(87 / 64 * 100%);
+   color: #000000;
+
+   margin: 0px 0px 30px 0px;
+}
+.pet-care__text {
+   font-size: 18px;
+   line-height: calc(30 / 18 * 100%);
+   font-family: var(--font-family-Quicksand);
+   margin: 0px 0px 50px 0px;
+}
+.pet-care__button {
+   display: flex;
+   transition: var(--transition-animation);
+}
+.pet-care__button:hover {
+   opacity: 0.7;
+}
+.pet-care__image {
+   max-width: 462px;
+   max-height: 428px;
 }
